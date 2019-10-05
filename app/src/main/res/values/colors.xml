@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="calcColor1">#36D695</color>
+    <color name="calcColor2">#60D6A7</color>
+    <color name="calcColor3">#007143</color>
+    <color name="calcColor4">#BF5B30</color>
+</resources>
