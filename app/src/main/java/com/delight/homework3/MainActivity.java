@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 2){
             if (resultCode == RESULT_OK){
+
                 TextView textView = findViewById(R.id.calculateResult);
                 textView.setText(data.getStringExtra("calculateResult"));
             }

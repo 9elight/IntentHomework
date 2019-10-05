@@ -255,7 +255,15 @@ public class CalculatorActivity extends AppCompatActivity {
 
         );
 
-
+       //button back click
+        final Intent intent = new Intent(this,MainActivity.class);
+        Button button = findViewById(R.id.back);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            startActivity(intent);
+            }
+        });
     }
 
 
